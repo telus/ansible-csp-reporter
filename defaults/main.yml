@@ -1,0 +1,5 @@
+---
+cspreporter_user: www-data
+cspreporter_install_directory: /data/www/
+cspreporter_install_name: csp-reporter
+cspreporter_path: "{{ cspreporter_install_directory }}{{ cspreporter_install_name }}"
