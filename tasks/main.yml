@@ -10,6 +10,12 @@
   npm:
     path: "{{ cspreporter_path }}"
 
+- name: copy configuration
+  template:
+    src: templates/config.js
+    dest: "{{ cspreporter_path }}/config.js"
+    mode: 0644
+
 - name: start CSP Reporter on reboot | cron
   cron:
     name: "start travis dashboard server"
