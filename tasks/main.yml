@@ -1,7 +1,7 @@
 ---
 - name: clone CSP Reporter | git
   git:
-    repo: "https://github.com/stevenharradine/csp-reporter"
+    repo: "https://github.com/telusdigital/csp-reporter"
     dest: "{{ cspreporter_path }}"
     update: yes
     force: yes
