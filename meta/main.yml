@@ -11,4 +11,4 @@ galaxy_info:
       versions:
         - all
 dependencies:
-  - role: telusdigital.nodejs
+  - src: telusdigital.nodejs
